@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+:root {
+    --font-var:'Nunito', sans-serif;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(221,139,19,1) 50%, rgba(2,0,36,1) 100%);
+}
+.header {
+    font-family: var(--font-var);
+    font-size: 4.5em;
+    margin-top: 0.1em;
+    margin-bottom: -0.5em ;
+    color: #fff;
+    text-shadow:2px 1.5px 3px #000000;
+    
+}
+
+button {
+    width: 3em;
+    height: 3em;
+    font-size: 1.7em;
+    border: none;
+    border-radius: 2em;
+    margin: 0.3em;
+    font-family: var(--font-var);
+    box-shadow: 0 5px rgb(190, 170, 170);
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 85%;
+}
+
+button:active{
+    transform: translateY(4px);
+    box-shadow: none
+}
+
+.wrapper{
+    background-color: #202020;
+    border-radius: 1em;
+    padding: 1em;
+}
+.gray {
+    background-color: #cacbcd;
+    color: #656667;
+}
+.orange{
+    background-color: #f88b10;
+    color: #fff;
+    box-shadow: 0 5px #a56419;
+}
+.darkGrey{
+    color: #656667;
+    
+}
+.zero {
+    width: 6.61em;
+    padding-right: 3.67em;
+}
+.result {
+    color: #fff;
+    display: flex;
+    justify-content: right;
+    padding-right: 0.4em;
+    margin-bottom: 0.3em;
+    font-size: 3.6em;
+    font-family: var(--font-var);
+    
+}
